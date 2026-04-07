@@ -31,7 +31,6 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始构建固件..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
-
 PACKAGES="$PACKAGES luci-app-mosdns"
 PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
